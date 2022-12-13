@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+    <title>Login | SC0RP</title>
     <script type="text/javascript" src="{{ url_for('static', filename='js/sha256.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </head>
@@ -7,7 +8,6 @@
     <form action='login' method='POST'>
         <input type='text' name='email' id='email' placeholder='email'/><br>
         <input type='password' name='password' id='password' placeholder='password'/><br>
-        <!-- <input type='submit' name='submit'/><br> -->
     </form>
-    <input type="button" class="form-submit" value="Submit" onclick="JJIJJIJJJJIJJIJJJJIJJIJJJJJIJIJJJJJIJIJIJIJIJJJJJJIJIJJIJJIJIJIJIJIJIJIIJJIJJIIJJJJJIJIJIJJJIJJIJIJJIJJIIJIJJIJIJIJIJIJIJIJIJIJIIJIJIJIJIJJIJJIJIJIJIJIJIJIJIJIJIJIJIJIJIJJIJJJJIJI()">
+    <input type="button" class="form-submit" value="Submit" onclick="sendRequest()">
 </body>
