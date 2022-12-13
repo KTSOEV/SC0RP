@@ -52,6 +52,7 @@ def login():
 
 @app.route('/req', methods=['POST'])
 def testReq():
+    print(request.json["IJIJIJJIIJIJIJJIJIJIJIJIIJJIJIJIJIJIJIJIIJIJIJIJIJJIJIJIJIIJJJJ"])
     print(request.json["IJIJIJIJIJJJJJIJJIJIIIJIJIJIJJJJJJJJJJIJIJJIIJIJIJJJIJIIJJJJJIJ"])
     return ""
 
