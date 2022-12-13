@@ -52,7 +52,11 @@ def login():
 
 @app.route('/req', methods=['POST'])
 def testReq():
+    #EMAIL
+    # sha256( "389R09J3FCRFLD3" + email + "93WNRE93F32GD34" )
     print(request.json["IJIJIJJIIJIJIJJIJIJIJIJIIJJIJIJIJIJIJIJIIJIJIJIJIJJIJIJIJIIJJJJ"])
+    #PASSWORD
+    # sha256( "78ER03HER0JDCJD" + pwd + "9ER8NFF98WJRFS" )
     print(request.json["IJIJIJIJIJJJJJIJJIJIIIJIJIJIJJJJJJJJJJIJIJJIIJIJIJJJIJIIJJJJJIJ"])
     return ""
 
